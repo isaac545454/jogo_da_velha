@@ -1,0 +1,77 @@
+*{
+    background-color: black;
+}
+
+
+.stage{
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.linha{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(56, 56, 56);
+    border: 3px solid rgb(255, 255, 255);
+    display: inline-block;
+}
+.o{
+    color: white;
+    position: relative;
+    font-size: 60px;
+}
+.o:after{
+    position: absolute;
+    content: "\274C";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.x{
+    color: white;
+    position: relative;
+    font-size: 60px;
+}
+.x:after{
+    position: absolute;
+    content: "\2B55";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+#container-button{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 20px;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 80px;
+    height: 40px;
+    
+    font-size: 18px;
+}
+
+@media (max-width: 480px){
+   
+    .linha{
+        height: 80px;
+        width: 80px;
+
+    }
+    button{
+    text-align: center;
+    }
+}
+
+

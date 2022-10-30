@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="jogo_da_velha.css">
+  <title>jogo da velha</title>
+</head>
+
+<body>
+<div class="caixa">
+
+
+
+  <h1>jogo da velha</h1>
+  <div class="stage">
+    <div>
+      <div key= 2 id="0" class="linha"></div>
+      <div key= 2 id="1" class="linha"></div>
+      <div key= 2 id="2" class="linha"></div>
+    </div>
+    <div>
+      <div key= 2 id="3" class="linha"></div>
+      <div key= 2 id="4" class="linha"></div>
+      <div key= 2 id="5" class="linha"></div>
+    </div>
+    <div class="inline">
+      <div key= 2 id="6" class="linha"></div>
+      <div key= 2 id="7" class="linha"></div>
+      <div key= 2 id="8" class="linha"></div>
+    </div>
+  </div>
+</div>
+<div id="container-button">
+  <button onclick="reiniciar()">reiniciar</button>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="jogo_da_velha_2.js"></script>
+  <script src="jogo_da_velha.js"></script>
+  <script>
+    function reiniciar(){
+    board = ['', '', '', '', '', '', '', '', '']
+    playertime = 0;
+    gameover = false
+    $(".x").remove()
+    $(".o").remove()
+    handleClick()
+
+    }
+            
+   
+
+  </script>
+
+</body>
+
+</html>
