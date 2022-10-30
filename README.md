@@ -15,6 +15,6 @@
 </ul>
 <h1>Como Rodar</h1>
 <ul>
-   <li>git clone https://github.com/isaac545454/velha</li>
+   <li>git clone https://github.com/isaac545454/jogo_da_velha</li>
    <li>abrir o caminho do arquivo html no navegador</li>
 </ul>
